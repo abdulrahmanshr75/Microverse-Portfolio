@@ -11,12 +11,23 @@ html {
   flex-direction: column;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: auto;
+  flex-direction: row;
+}
+
 .container {
+  z-index: 1;
   height: auto;
   width: 375px;
   left: 0;
   top: 92px;
   border-radius: 0;
+  margin: 0;
   background-image: url(images/header-illsutration-mobile.png);
 }
 
@@ -28,17 +39,17 @@ html {
 }
 
 .icon {
-  float: right;
+  position: relative;
   height: 24px;
   width: 24px;
-  left: 8px;
-  top: 8px;
-  padding-left: 25px;
+  left: 105px;
+  top: 3px;
 }
 
 .Logo-heading {
-  display: inline;
+  position: relative;
   font-size: 20px;
+  right: 105px;
 }
 
 .heading {
